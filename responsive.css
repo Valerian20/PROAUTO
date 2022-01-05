@@ -1,0 +1,202 @@
+@media (max-width: 1023px) {
+  .navbar {
+    border-bottom: transparent;
+  }
+  #menu {
+    border-radius: 0px;
+    text-align: center;
+    border-bottom: 1px solid #0089c9;
+    margin: 0;
+    padding: 1.5rem 0;
+  }
+
+  #menu:hover {
+    background-color: transparent;
+  }
+
+  #menu:first-child {
+    border-top: 1px solid #0089c9;
+  }
+
+  .harta-fold {
+    display: none;
+  }
+}
+
+@media (min-width: 767px) {
+  .titlu {
+    font-size: 6rem !important;
+  }
+
+  .subtitlu {
+    font-size: 2.5rem !important;
+  }
+
+  .buton-programare {
+    font-size: 1.5rem !important;
+  }
+
+  .despre h1 {
+    font-size: 2rem;
+  }
+
+  .despre p {
+    font-size: 1.3rem;
+    line-height: 2.3rem;
+  }
+
+  .portofoliu h1 {
+    font-size: 2rem;
+  }
+
+  .portofoliu p {
+    font-size: 1.3rem;
+    line-height: 2.3rem;
+  }
+
+  .date-de-contact h1 {
+    font-size: 2rem;
+  }
+
+  .date-de-contact p {
+    font-size: 1.3rem;
+    line-height: 2.3rem;
+  }
+
+  .harta-fold {
+    display: none;
+  }
+}
+
+@media (min-width: 1023px) {
+  .titlu {
+    font-size: 10rem !important;
+  }
+
+  .subtitlu {
+    font-size: 4rem !important;
+    margin-top: 1rem !important;
+  }
+
+  .buton-programare {
+    font-size: 1.5rem !important;
+  }
+
+  .social-icons img {
+    margin-top: 5rem;
+    width: 40px !important;
+  }
+
+  .despre h1 {
+    font-size: 3.5rem;
+    margin-left: 1rem;
+  }
+
+  .despre p {
+    font-size: 1.4rem;
+    line-height: 3rem;
+  }
+
+  .despre img {
+    margin-top: 8rem;
+  }
+
+  .portofoliu h1 {
+    font-size: 3.5rem;
+  }
+
+  .portofoliu p {
+    font-size: 1.4rem;
+    line-height: 3rem;
+  }
+
+  .portofoliu img {
+    width: 25rem;
+  }
+
+  .date-de-contact h1 {
+    font-size: 3.5rem;
+  }
+
+  .date-de-contact p {
+    font-size: 1.4rem;
+    line-height: 3rem;
+    margin-left: 1rem;
+  }
+
+  .social-icons-despre {
+    width: fit-content;
+  }
+
+  .harta-mobile {
+    display: none;
+  }
+
+  .harta-desktop {
+    display: block;
+  }
+
+  .harta-fold {
+    display: none;
+  }
+}
+
+@media (max-width: 767px) {
+  .titlu {
+    letter-spacing: 4px;
+    font-size: 2.7rem !important;
+  }
+  .despre {
+    padding: 0;
+  }
+
+  .harta-mobile {
+    display: none !important;
+  }
+
+  .harta-fold {
+    display: block !important;
+  }
+}
+
+@media (max-width: 1025px) {
+  .harta-desktop {
+    display: none;
+  }
+
+  .harta-mobile {
+    display: block;
+  }
+
+  .harta-fold {
+    display: none;
+  }
+}
+
+@media (max-width: 280px) {
+  .titlu {
+    letter-spacing: 2px;
+    font-size: 2.7rem !important;
+  }
+  .harta-fold {
+    display: block;
+  }
+
+  .harta-desktop {
+    display: none;
+  }
+
+  .harta-mobile {
+    display: none;
+  }
+
+  .despre {
+    margin-top: 7rem;
+  }
+}
+
+@media (max-width: 1600px) {
+  .sageata i {
+    display: none;
+  }
+}

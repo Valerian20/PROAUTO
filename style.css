@@ -1,0 +1,248 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+  font-family: Poppins-Regular;
+  src: url("../css/Font/Poppins-Regular.ttf");
+}
+
+@font-face {
+  font-family: Poppins-Medium;
+  src: url("../css/Font/Poppins-Medium.ttf");
+}
+
+@font-face {
+  font-family: Poppins-Bold;
+  src: url("../css/Font/Poppins-Bold.ttf");
+}
+
+@font-face {
+  font-family: Poppins-SemiBold;
+  src: url("../css/Font/Poppins-SemiBold.ttf");
+}
+
+body {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("../img/imagine2.webp");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  font-family: Poppins-Regular;
+  background-size: cover;
+}
+
+.wrapper {
+  margin: auto;
+  background-color: transparent !important;
+  width: 80%;
+  height: auto;
+}
+
+.navbar {
+  background-color: transparent;
+  padding-top: 1rem;
+  border-bottom: 1px solid #0089c9;
+  padding-bottom: 1rem;
+}
+
+.navbar-item {
+  color: #fff;
+  letter-spacing: 3px;
+}
+
+.navbar-item:hover {
+  color: #fff !important;
+}
+
+.navbar-menu {
+  background-color: transparent !important;
+}
+
+.navbar-burger {
+  color: #fff !important;
+  margin-top: 4px;
+}
+
+.navbar-burger:hover {
+  color: #0089c9 !important;
+}
+
+#menu {
+  margin-left: 2rem;
+  color: #fff;
+  border-radius: 1.2rem;
+  padding: 0 2rem;
+  letter-spacing: 2px;
+  background-color: transparent;
+}
+
+#menu:hover {
+  background-color: rgb(0, 137, 201, 0.05);
+  color: #0089c9 !important;
+}
+
+.header {
+  margin-top: 6rem;
+}
+.titlu {
+  font-size: 5rem;
+  letter-spacing: 10px;
+  color: #fff;
+  font-family: Poppins-Medium;
+}
+
+.subtitlu {
+  font-size: 2.5rem;
+  color: #fff;
+  font-family: Poppins-Regular;
+  letter-spacing: 7px;
+}
+
+.buton-programare {
+  color: rgb(255, 255, 255);
+  position: relative;
+  top: 4rem;
+  font-size: 1rem;
+  text-decoration: none;
+  letter-spacing: 3px;
+  border: 2px solid #0089c9;
+  padding: 1rem 3rem;
+  border-radius: 3rem;
+}
+
+.buton-programare:hover {
+  border: none;
+  background-color: rgb(0, 137, 201, 0.1);
+  color: #fff;
+  border: 2px solid #0089c9;
+}
+
+.social-icons {
+  margin-top: 7rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.social-icons img {
+  width: 25px !important;
+  margin: 20px;
+}
+
+.sageata i {
+  font-size: 1.5rem;
+  color: #fff;
+  position: absolute;
+  left: 4%;
+  bottom: 8%;
+  position: fixed;
+  cursor: pointer;
+}
+
+.sageata i:hover {
+  color: #0089c9;
+}
+
+.columns {
+  margin: 0;
+}
+
+.despre {
+  margin-top: 5rem;
+  padding: 2rem;
+}
+
+.despre h1 {
+  width: 80%;
+  padding-bottom: 2rem;
+  margin: auto;
+  color: #fff;
+  font-size: 1.6rem;
+  letter-spacing: 5px;
+  font-family: Poppins-Medium;
+  border-bottom: 2px solid #0089c9;
+}
+
+.despre p {
+  line-height: 2rem;
+  padding: 1.2rem;
+  color: #fff;
+  font-size: 1rem;
+  letter-spacing: 2px;
+  font-family: Poppins-Regular;
+}
+
+.despre img {
+  border: 1px solid #0089c9;
+  border-radius: 1.5rem;
+}
+
+.portofoliu {
+  margin-top: 6rem;
+}
+.portofoliu h1 {
+  width: 80%;
+  padding-bottom: 2rem;
+  margin: auto;
+  color: #fff;
+  font-size: 1.6rem;
+  letter-spacing: 5px;
+  font-family: Poppins-Medium;
+  border-bottom: 2px solid #0089c9;
+}
+
+.portofoliu p {
+  line-height: 2rem;
+  padding: 1.2rem;
+  color: #fff;
+  font-size: 1rem;
+  letter-spacing: 2px;
+  font-family: Poppins-Regular;
+}
+
+.portofoliu img {
+  border: 1px solid #0089c9;
+  border-radius: 1.5rem;
+}
+
+.date-de-contact {
+  margin-top: 6rem;
+}
+
+.date-de-contact h1 {
+  width: 80%;
+  padding-bottom: 2rem;
+  margin: auto;
+  margin-bottom: 3rem;
+  color: #fff;
+  font-size: 1.6rem;
+  letter-spacing: 5px;
+  font-family: Poppins-Medium;
+  border-bottom: 2px solid #0089c9;
+}
+
+.date-de-contact p {
+  color: #fff;
+  margin-bottom: 2rem;
+  font-size: 1rem;
+  font-family: Poppins-Regular;
+  letter-spacing: 2px;
+}
+
+.icon {
+  margin-right: 1rem;
+}
+
+.social-icons-despre {
+  margin-top: 2rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.social-icons-despre img {
+  width: 25px !important;
+  margin: 20px;
+}

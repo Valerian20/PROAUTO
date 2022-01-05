@@ -1,0 +1,75 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bulma@0.9.0/css/bulma.min.css"
+    />
+    <link href="css/style.css" rel="stylesheet" />
+    <link href="css/programare.css" rel="stylesheet" />
+    <link href="css/responsive.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/fontawesome-free-5.15.4-web/css/all.css" />
+    <title>Portofoliu</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <nav class="navbar">
+        <!-- logo / brand -->
+        <div class="navbar-brand">
+          <a href="index.html" class="navbar-item"
+            ><h1 class="is-size-3">PROAUTO</h1>
+          </a>
+          <a class="navbar-burger" id="burger">
+            <span></span>
+            <span></span>
+            <span></span>
+          </a>
+        </div>
+
+        <div class="navbar-menu" id="nav-links">
+          <!-- right links -->
+          <div class="navbar-end">
+            <a href="index.html" id="menu" class="navbar-item">ACASA</a>
+            <a href="portofoliu.html" id="menu" class="navbar-item"
+              >PORTOFOLIU</a
+            >
+            <a href="servicii.html" id="menu" class="navbar-item">SERVICII</a>
+          </div>
+        </div>
+      </nav>
+
+      <div class="container">
+        <div class="programare" onsubmit="sendEmail(); reset(); return false;">
+          <div class="columns has-text-centered is-centered">
+            <div class="column is-four-fifths">
+              <h1>PROGRAMARE</h1>
+              <div class="column">
+                <input class="input" type="text" placeholder="Full Name" />
+              </div>
+              <div class="column">
+                <input class="input" type="text" placeholder="Email" />
+              </div>
+              <div class="column">
+                <input class="input" type="text" placeholder="Phone" />
+              </div>
+              <div class="column">
+                <textarea
+                  class="textarea"
+                  placeholder="Send a message"
+                ></textarea>
+              </div>
+              <div class="column">
+                <button class="button is-primary" type="submit">SUBMIT</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script src="index.js"></script>
+  </body>
+</html>
